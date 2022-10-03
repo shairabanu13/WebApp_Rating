@@ -1,0 +1,52 @@
+public class Member {
+	
+	private String sname,subject,assignmentCategory;
+	int points;
+	
+	public Member() {
+		super();
+	}
+
+	public Member(String sname, String subject, String assignmentCategory, int points) {
+		super();
+		this.sname = sname;
+		this.subject = subject;
+		this.assignmentCategory = assignmentCategory;
+		this.points = points;
+	}
+
+	public String getSname() {
+		return sname;
+	}
+
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public String getAssignmentCategory() {
+		return assignmentCategory;
+	}
+
+	public void setAssignmentCategory(String assignmentCategory) {
+		this.assignmentCategory = assignmentCategory;
+	}
+
+	public int getPoints() {
+		return points;
+	}
+
+	public void setPoints(int points) {
+		this.points = points;
+	}
+     
+	
+	
+}
